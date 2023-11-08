@@ -1,0 +1,206 @@
+GIT
+---------
+
+agenda
+----------
+intro:
+
+1. version controll system & its types
+2. git & github
+3. installation of git on window & ec2-instance
+4. git configuration
+5. github account creation
+6. github action
+
+
+7. local changes: 
+  git add
+  git commit
+ git log
+
+8. remote changes:
+
+ adding remote repository
+ git clone
+ git push
+ git pull
+ git fetch
+ 
+9. git branching
+10. git merging
+11. git merge conflict
+12. git rebase
+13. git squash
+14. git cherry-pick
+15. git .gitignore
+16 git stash
+17. undoing changes
+    git reset
+    git revert
+
+
+
+
+
+
+
+
+VERSION CONTROLL SYSTEM
+-----------------------------
+it is a tool that helps in documentation of all version of application.
+
+
+TYPES OF VERSION CONTROLL SYSTEM
+------------------------------------
+1. local version control system
+-------------------------------------
+
+
+GIT TERMINOLOGY
+-------------------
+
+1. REPOSITORY :  it is a directory where we store all files.
+
+2. REMOTE : central server
+
+3. CLONE: it is an action to copy the entire central repository to local repo.
+
+4. FORK : creating the copy of repository.
+
+5. FETCH : it is anction to bring info. about changes in remote repo.
+
+6. HEAD : it refers to recent changes.
+
+7. COMMIT:  it is an action to add the files from staging area to local repo.
+
+8. branch: by using this developer can work easily together.
+
+9. merge : combining the branches
+
+10. pull : to bring changes from remote to local repo.
+
+11. push : adding the local changes to remote repo.
+
+
+
+installation of git on ec2
+------------------------------
+
+sudo yum update
+
+sudo yum install git 
+
+git --version  / to check the version of git
+
+which git     / to know location of git
+
+
+
+configuration 
+-----------------
+
+git config --global user.name "username"
+
+git config --global user.email "useremail-ID"
+
+git config --list   / to check configuration.
+
+
+
+starting a Project
+-----------------------------
+
+create a directory
+
+mkdir git-tutorial
+
+go inside the dir
+syn: cd git-tutorial
+
+
+run the command to initialize your git
+
+syn: git init
+
+
+LOCAL CHANGES
+------------------
+
+1. git status    / to check the status of git.
+
+2. git add / to add changes from working dir. to staging area.
+syn: git add <filename>
+
+3. git commit / to add the changes from staging to local repo.
+
+syn: git commit -m "commit-messege"
+
+
+4. to check the commit history
+
+syn: git log
+     git log --oneline
+
+syn: git show <commit-id>  / to see the content of commit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
